@@ -5,6 +5,7 @@ class Solution {
         Set<Character> map = new HashSet<>();
         
         int n = s.length();
+        //Increment i if a duplicate is found, Increment j if no duplicates are found, ans to keep track of current largest size.
         int i = 0, j = 0, ans = 0;
         
         while(i < n && j < n){
