@@ -1,4 +1,4 @@
-class LeetCode5{
+class ThreeSum{
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> triplets = new ArrayList();
         if (nums.length < 3) return triplets;
