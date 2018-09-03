@@ -1,5 +1,5 @@
 //Note works only if the arrays are of equal length and sorted
-class Solution {
+class TwoArraysMedians {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         return findMedianSortedArrays(nums1, nums2, 0,(nums1.length - 1), 0, (nums2.length - 1));
 }
