@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Solution {
+class LongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         Set<Character> map = new HashSet<>();
         
